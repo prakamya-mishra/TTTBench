@@ -152,16 +152,19 @@
        <div class="item">
         <!-- Your image here -->
         <img src="./static/images/TTTBench_hf.png" alt="TTT-Bench"/>
-        <p>In this work:</p>
-        <ul>
+        <div class="content">
+         <p>In this work:</p>
+          <ul>
               <li> We introduce <b>TTT-Bench</b> benchmark to evaluate the reasoning capabilities of LRMs that are proficient in solving difficult math problems, on a broader domain of basic strategic, spatial, and logical reasoning tasks through a suite of four simple two-player Tic-Tac-Toe-style games.
               <li> We evaluate a variety of state-of-the-art (SOTA) LRMs on TTT-Bench, and reveal a surprising finding: <b>skilled at difficult math problems frequently struggle with these simpler reasoning tasks</b>.
               <li> This work not only highlights a fundamental shortcoming in LRMs, but also provides a new, simple, and scalable approach for automated verifiable two-player game generation, fostering future research efforts in evaluating the reasoning capability of LRMs.
             </ul>
+          </div>
       </div>
       <div class="item">
         <!-- Your image here -->
         <img src="static/images/ttt_bench_main_performance_hf.png" alt="Results 1"/>
+        <div class="content">
         <p>In this work, we evaluate a comprehensive set of recent SOTA LRMs on TTT-Bench and conduct a head-to-head comparison of their performance on TTT-Bench versus two widely used mathematics benchmarks: AIME 2024 & MATH 500 (high school math), to thoroughly investigate the reasoning capabilities of these models.</p>
         <b>Weak reasoning ability of LRMs on simple and intuitive tasks:</b>
         <ul>
@@ -173,10 +176,12 @@
           <li>The Δ Pass@1$ trends also illustrate the relative task reasoning difficulties over the TTT-Bench tasks, which are consistent across Δ Pass@1$ comparisons against both MATH 500 & AIME 2024: oTTT < dTTT < sTTT < cTTT.</li>
           <li><i>These performance trends indicate poor reasoning ability of SOTA LRMs on TTT-Bench tasks that are simple, intuitive, and of low complexity, compared to their performance on both MATH 500 & AIME 2024 questions that are difficult and require relatively more knowledge and complex reasoning efforts.</i></li>
         </ul>
-      </div>
+        </div>
+        </div>
       <div class="item">
         <!-- Your image here -->
         <img src="./static/images/category_performance_plot_hf.png" alt="category"/>
+        <div class="content">
         <p></p>
         <b>Reasoning models struggle with simple long-term strategic reasoning:</b>
         <ul>
@@ -186,11 +191,13 @@
           <li>This consistently high performance over questions with a solution verdict "Win" indicates that almost all the LRMs are capable of doing sound short-term thinking, where the solution is straightforward.</li>
           <li>On the contrary, a consistent dip in performance over slightly complex reasoning scenarios with "Blocked" & "Fork" solution verdicts indicates that the LRMs struggle to successfully solve simple long-term strategic reasoning tasks where the models need to explore more possibilities and think strategically to either block the opponent's win or to identify a position which can lead to a long-term assured win.</li>
         </ul>
+          </div>
      </div>
      <div class="item">
       <!-- Your image here -->
       <img src="./static/images/ttt_bench_pass_vs_ctx_len_hf.png" alt="Context Length"/>
-      <p></p><b>LRMs overthink on TTT-Bench, with an increase in model size resulting in improved performance and efficient use of chain-of-thought:</b>
+      <div class="content">
+       <p></p><b>LRMs overthink on TTT-Bench, with an increase in model size resulting in improved performance and efficient use of chain-of-thought:</b>
       <ul>
         <li> We also do a comparision between: 
           <ol>
@@ -204,6 +211,7 @@
         <li>A head-to-head comparison between the generated solution response lengths for solving TTT-Bench tasks <i>vs</i> math benchmarks reveal that all the LRMs use longer COT for questions in TTT-Bench tasks against the MATH 500 questions, whereas they generate somewhat similar length COT when compared against AIME questions (especially in the case of sTTT against AIME).</li>
         <li><i>These findings suggest that these reasoning models consume similar amount thinking tokens for solving TTT-Bench tasks (even though they are trivial for humans) as used for solving olympiad-level math questions, and are found to produce long COT with circular, inconclusive, and repetitive thinking process for these trivial questions, further indicating their inability to do simple, intuitive, and straightforward tasks.</i></li>
       </ul>
+      </div>
     </div>
   </div>
 </div>
