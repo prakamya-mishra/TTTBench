@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+  <!-- Replace the content tag with appropriate information -->
+  <meta name="description" content="TTT-Bench: A Benchmark for Evaluating Reasoning Ability with Simple and Novel Tic-Tac-Toe-style Games">
+  <meta property="og:title" content="TTT-Bench: A Benchmark for Evaluating Reasoning Ability with Simple and Novel Tic-Tac-Toe-style Games"/>
+  <meta property="og:description" content="TTT-Bench: A Benchmark for Evaluating Reasoning Ability with Simple and Novel Tic-Tac-Toe-style Games"/>
+  <meta property="og:url" content="URL OF THE WEBSITE"/>
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
+  <meta property="og:image" content="static/image/your_banner_image.png" />
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/>
+
+
+  <meta name="twitter:title" content="TTT-Bench: A Benchmark for Evaluating Reasoning Ability with Simple and Novel Tic-Tac-Toe-style Games">
+  <meta name="twitter:description" content="TTT-Bench: A Benchmark for Evaluating Reasoning Ability with Simple and Novel Tic-Tac-Toe-style Games">
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
+  <meta name="twitter:image" content="static/images/tic-tac-toe.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- Keywords for your paper to be indexed by-->
+  <meta name="keywords" content="Benchmark, Reasoning, LLMs, Evaluation">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <title>TTT-Bench: A Benchmark for Evaluating Reasoning Ability with Simple and Novel Tic-Tac-Toe-style Games</title>
+  <link rel="icon" type="image/x-icon" href="./static/images/tic-tac-toe.png">
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+  rel="stylesheet">
+
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+</head>
+<body>
+
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title">TTT-Bench: A Benchmark for Evaluating Reasoning Ability <br> with Simple and Novel Tic-Tac-Toe-style Games</h1>
+            <div class="is-size-5 publication-authors">
+              <!-- Paper authors -->
+              <span class="author-block">
+                <a href="https://prakamya-mishra.github.io/" target="_blank">Prakamya Mishra</a><sup>*</sup>,</span>
+                <span class="author-block">
+                  <a href="https://joellliu.github.io/" target="_blank">Jiang Liu</a>,</span>
+                  <span class="author-block">
+                    <a href="https://jialianwu.com/" target="_blank">Jialian Wu</a>,
+                  </span>
+                  <span class="author-block">
+                    <a href="https://www.xiaodongyu.me/" target="_blank">Xiaodong Yu</a>,
+                  </span>
+                  <span class="author-block">
+                    <a href="https://yushengsu-thu.github.io/" target="_blank">Yusheng Su</a>,
+                  </span><br>
+                  <span class="author-block">
+                    <a href="https://sites.google.com/view/zichengliu/home" target="_blank">Zicheng Liu</a>,
+                  </span>
+                  <span class="author-block">
+                    <a href="https://scholar.google.com/citations?hl=en&user=bX1YILcAAAAJ&view_op=list_works&sortby=pubdate" target="_blank">Emad Barsoum</a>
+                  </span>
+                  </div>
+
+                  <div class="is-size-5 publication-authors">
+                    <span class="author-block">Advanced Micro Devices, Inc</span>
+                    <span class="eql-cntrb"><small><br><sup>*</sup>Corresponding author(s): Prakamya Mishra (prakamya.mishra@amd.com)</small></span>
+                  </div>
+
+                  <!-- Github link -->
+                  <span class="link-block">
+                    <a href="https://huggingface.co/datasets/amd/TTT-Bench" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon" style="vertical-align: middle; font-size: 20px;">
+                      🤗
+                    </span>
+                    <span>Dataset</span>
+                  </a>
+                </span>
+
+                <!-- ArXiv abstract Link -->
+                <span class="link-block">
+                  <a href="https://arxiv.org/abs/<ARXIV PAPER ID>" target="_blank"
+                  class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Teaser video-->
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <p>
+        <img src="./static/images/TTTBench_hf.png" class="blend-img-background center-image" style="max-width: 100%; height: auto;">
+      </p>
+      <br>
+      <p>
+        Visualization of four game types in TTT-Bench (oTTT, dTTT, cTTT, and sTTT). For each game, the illustration consists of the board position annotations (above), the current game state with Alice's (white) and Bob's (black), and the correct next move (represented by a check mark). 
+      </p>
+    </div>
+  </div>
+</section>
+<!-- End teaser video -->
+
+<!-- Paper abstract -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+             Large reasoning models (LRMs) have demonstrated impressive reasoning capabilities across a broad range of tasks including Olympiad-level mathematical problems, indicating evidence of their complex reasoning abilities. While many reasoning benchmarks focus on the STEM domain, the ability of LRMs to reason correctly in broader task domains remains underexplored. In this work, we introduce <b>TTT-Bench</b>, a new benchmark that is designed to evaluate basic strategic, spatial, and logical reasoning abilities in LRMs through a suite of four two-player Tic-Tac-Toe-style games that humans can effortlessly solve from a young age. We propose a simple yet scalable programmatic approach for generating verifiable two-player game problems for TTT-Bench. Although these games are trivial for humans, they require reasoning about the intentions of the opponent, as well as the game board's spatial configurations, to ensure a win. We evaluate a diverse set of state-of-the-art LRMs, and <b>discover that the models that excel at hard math problems frequently fail at these simple reasoning games</b>. Further testing reveals that our evaluated reasoning models score on average &darr;41% & &darr;5% lower on TTT-Bench compared to MATH 500 & AIME 2024 respectively, with larger models achieving higher performance using shorter reasoning traces, where most of the models struggle on long-term st rategic reasoning situations on simple and new TTT-Bench tasks.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper abstract -->
+
+
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <div id="results-carousel" class="carousel results-carousel">
+       <div class="item">
+        <!-- Your image here -->
+        <img src="./static/images/TTTBench_hf.png" alt="TTT-Bench"/>
+        <p>In this work:</p>
+        <ul>
+              <li> We introduce <b>TTT-Bench</b> benchmark to evaluate the reasoning capabilities of LRMs that are proficient in solving difficult math problems, on a broader domain of basic strategic, spatial, and logical reasoning tasks through a suite of four simple two-player Tic-Tac-Toe-style games.
+              <li> We evaluate a variety of state-of-the-art (SOTA) LRMs on TTT-Bench, and reveal a surprising finding: <b>skilled at difficult math problems frequently struggle with these simpler reasoning tasks</b>.
+              <li> This work not only highlights a fundamental shortcoming in LRMs, but also provides a new, simple, and scalable approach for automated verifiable two-player game generation, fostering future research efforts in evaluating the reasoning capability of LRMs.
+            </ul>
+      </div>
+      <div class="item">
+        <!-- Your image here -->
+        <img src="static/images/ttt_bench_main_performance_hf.png" alt="Results 1"/>
+        <p>In this work, we evaluate a comprehensive set of recent SOTA LRMs on TTT-Bench and conduct a head-to-head comparison of their performance on TTT-Bench versus two widely used mathematics benchmarks: AIME 2024 & MATH 500 (high school math), to thoroughly investigate the reasoning capabilities of these models.</p>
+        <b>Weak reasoning ability of LRMs on simple and intuitive tasks:</b>
+        <ul>
+          <li>
+            Given the simplicity of the TTT-Bench tasks, we expect Pass@1 scores of SOTA LRMs to be higher relative to their performance on math benchmarks (positive Δ Pass@1), especially for models that do well on math benchmarks.
+          </li>
+          <li>Surprisingly, we observed the opposite -- the majority of the evaluated models had lower Pass@1 scores on TTT-Bench compared to their Pass@1 scores on MATH 500 <b>(&darr; Avg Δ Pass@1: -41.36%) & AIME 2024 (&darr; Avg Δ Pass@1: -4.88%)</b>.</li>
+          <li>In the case of MATH 500, which consists of high school math problems, the drops are significant relative to all the TTT-Bench tasks across all the models, especially for the small models.</li>
+          <li>The Δ Pass@1$ trends also illustrate the relative task reasoning difficulties over the TTT-Bench tasks, which are consistent across Δ Pass@1$ comparisons against both MATH 500 & AIME 2024: oTTT < dTTT < sTTT < cTTT.</li>
+          <li><i>These performance trends indicate poor reasoning ability of SOTA LRMs on TTT-Bench tasks that are simple, intuitive, and of low complexity, compared to their performance on both MATH 500 & AIME 2024 questions that are difficult and require relatively more knowledge and complex reasoning efforts.</i></li>
+        </ul>
+      </div>
+      <div class="item">
+        <!-- Your image here -->
+        <img src="./static/images/category_performance_plot_hf.png" alt="category"/>
+        <p></p>
+        <b>Reasoning models struggle with simple long-term strategic reasoning:</b>
+        <ul>
+          <li>We investigate the type of reasoning tasks these LRMs are good at by analyzing their performance over these these individual solution verdict category questions.</li>
+          <li>We observe that across the TTT-Bench tasks oTTT, dTTT, and sTTT, the performance of LRMs over questions that have the solution with verdict "Win" is consistently higher than the questions with verdict "Blocked", with the lowest for the questions with verdict "Fork".</li>
+          <li>Whereas in the case of cTTT, the performance remained equally low for all the questions, independent of the solution verdict.</li>
+          <li>This consistently high performance over questions with a solution verdict "Win" indicates that almost all the LRMs are capable of doing sound short-term thinking, where the solution is straightforward.</li>
+          <li>On the contrary, a consistent dip in performance over slightly complex reasoning scenarios with "Blocked" & "Fork" solution verdicts indicates that the LRMs struggle to successfully solve simple long-term strategic reasoning tasks where the models need to explore more possibilities and think strategically to either block the opponent's win or to identify a position which can lead to a long-term assured win.</li>
+        </ul>
+     </div>
+     <div class="item">
+      <!-- Your image here -->
+      <img src="./static/images/ttt_bench_pass_vs_ctx_len_hf.png" alt="Context Length"/>
+      <p></p><b>LRMs overthink on TTT-Bench, with an increase in model size resulting in improved performance and efficient use of chain-of-thought:</b>
+      <ul>
+        <li> We also do a comparision between: 
+          <ol>
+            <li> The task performance of the models against the mean length of the corresponding solution responses <b>(Top)</b>. </li>
+            <li> The model scale against the corresponding mean response lengths <b>(Mid)</b>. </li>
+            <li> The mean response lengths used for solving TTT-Bench task against the mean response lengths for solving math benchmarks for different models <b>(Bottom)</b>.</li>
+          </ol>
+        <li>From these plots, we observe that LRMs solve MATH 500 questions with higher accuracy and shorter COT, whereas in the case of both AIME and TTT-Bench questions (especially dTTT, cTTT, & sTTT), models used longer COT with high variability and lower performance.</li>
+        <li>This is counterintuitive, as the question is that TTT-Bench tasks are relatively simple, straightforward, and don't require as much thinking as is required to solve AIME questions.</li>
+        <li>Consequently, we find that the larger models achieve higher performance using shorter COT across all the benchmarks, where the order of response lengths used for solving different benchmarks is: MATH 500 < TTT-Bench < AIME 2024.</li>
+        <li>A head-to-head comparison between the generated solution response lengths for solving TTT-Bench tasks <i>vs</i> math benchmarks reveal that all the LRMs use longer COT for questions in TTT-Bench tasks against the MATH 500 questions, whereas they generate somewhat similar length COT when compared against AIME questions (especially in the case of sTTT against AIME).</li>
+        <li><i>These findings suggest that these reasoning models consume similar amount thinking tokens for solving TTT-Bench tasks (even though they are trivial for humans) as used for solving olympiad-level math questions, and are found to produce long COT with circular, inconclusive, and repetitive thinking process for these trivial questions, further indicating their inability to do simple, intuitive, and straightforward tasks.</i></li>
+      </ul>
+    </div>
+  </div>
+</div>
+</div>
+</section>
+
+
+<!--BibTex citation -->
+  <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <h2 class="title">BibTeX</h2>
+      <pre><code>BibTex Code Here</code></pre>
+    </div>
+</section>
+<!--End BibTex citation -->
+
+
+  <footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+
+          <p>
+            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+            You are free to borrow the source code of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
